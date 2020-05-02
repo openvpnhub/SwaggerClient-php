@@ -1,18 +1,28 @@
 {
-    "name": "/",
-    "description": "",
+    "name": "openvpnhub/SwaggerClient-php",
+    "description": "A PHP Client for the  DingConnect Mobile Top-Up API.",
+    "type": "library",
     "keywords": [
         "swagger",
         "php",
         "sdk",
-        "api"
+        "api",
+        "dingconnect"
     ],
-    "homepage": "http://swagger.io",
-    "license": "proprietary",
+    "homepage": "https://github.com/openvpnhub/SwaggerClient-php",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Swagger and contributors",
-            "homepage": "https://github.com/swagger-api/swagger-codegen"
+            "name": "Parenthesis Tech LLC",
+            "email": "hi@c.io",
+            "homepage": "https://c.cc",
+            "role": "Company"
+        },
+        {
+            "name": "cc cc",
+            "email": "cc@cc.cc",
+            "homepage": "https://cc.cc",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -28,9 +38,9 @@
         "friendsofphp/php-cs-fixer": "~2.12"
     },
     "autoload": {
-        "psr-4": { "Swagger\\Client\\" : "lib/" }
+        "psr-4": { "openvpnhub\\SwaggerClient\\" : "src/" }
     },
     "autoload-dev": {
-        "psr-4": { "Swagger\\Client\\" : "test/" }
+        "psr-4": { "openvpnhub\\SwaggerClient\\" : "test/" }
     }
 }
