@@ -38,7 +38,7 @@
         "friendsofphp/php-cs-fixer": "~2.12"
     },
     "autoload": {
-        "psr-4": { "openvpnhub\\SwaggerClient\\" : "src/" }
+        "psr-4": { "openvpnhub\\SwaggerClient\\" : "lib/" }
     },
     "autoload-dev": {
         "psr-4": { "openvpnhub\\SwaggerClient\\" : "test/" }
